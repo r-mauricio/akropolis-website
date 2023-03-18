@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html::-webkit-scrollbar {
+	width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+	background: rgb(179, 177, 177);
+	border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+	background: rgb(136, 136, 136);
+	border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+	background: rgb(100, 100, 100);
+	border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:active {
+	background: rgb(68, 68, 68);
+	border-radius: 10px;
+}
+
+/* * {
+	outline: 1px solid red;
+} */
+html {
+	scroll-behavior: smooth;
+}
+/* Hamburger Menu */
+
+.hamburger {
+	cursor: pointer;
+	width: 24px;
+	height: 24px;
+	transition: all;
+	position: relative;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 24px;
+	height: 2px;
+	background: #000;
+	transform: rotate(0);
+	transition: all 0.5s;
+}
+
+.hamburger-middle {
+	transform: translateY(7px);
+}
+
+.hamburger-bottom {
+	transform: translateY(14px);
+}
+
+.open {
+	transform: rotate(90deg);
+	transform: translateY(0px);
+}
+
+.open .hamburger-top {
+	transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-middle {
+	display: none;
+}
+
+.open .hamburger-bottom {
+	transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+/* Navbar  links style */
+.link {
+	transition: ease-in-out;
+	transition-duration: 300ms;
+}
+:hover.link {
+	color: #7c0002ff;
+}
+
+.active {
+	text-decoration: solid underline rgb(124 0 2 / 0.8) 3px;
+
+	text-underline-offset: 40px;
+}
+
+@media screen and (max-width: 976px) {
+	.active {
+		text-decoration: solid underline rgb(124 0 2 / 0.8) 3px;
+
+		text-underline-offset: 10px;
+	}
+	:hover.active {
+		text-decoration: solid underline rgb(155, 116, 116) 3px;
+	}
+}
+/* for desktop */
+.whatsapp_float {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+	background-color: #1fab52;
+	color: #fff;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 1px 1px 1px #999;
+	z-index: 100;
+}
+
+.whatsapp-icon {
+	margin-top: 16px;
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+	.whatsapp-icon {
+		margin-top: 10px;
+	}
+
+	.whatsapp_float {
+		width: 40px;
+		height: 40px;
+		bottom: 20px;
+		right: 10px;
+		font-size: 22px;
+	}
+}
