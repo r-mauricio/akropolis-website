@@ -71,6 +71,9 @@ const infoPredio = [
 			{ image: "/DSC_0702.jpg" },
 		],
 		desc: "",
+		description: [
+			{ desc: "Prédio 100% vendido" },
+		],
 		alt: "Foto Condomínio Residencial Pergos",
 		category: "Entregue",
 	},
@@ -83,6 +86,9 @@ const infoPredio = [
 			{ image: "/DSC_0748.jpg" },
 		],
 		desc: "",
+		description: [
+			{ desc: "Prédio 100% vendido" },
+		],
 		alt: "Foto Edifício Risoleta Faustino",
 		category: "Entregue",
 	},
@@ -95,6 +101,9 @@ const infoPredio = [
 			{ image: "/DSC_0734.jpg" },
 		],
 		desc: "",
+		description: [
+			{ desc: "Prédio 100% vendido" },
+		],
 		alt: "Foto Edifício Príncipe de Micenas",
 		category: "Entregue",
 	},
