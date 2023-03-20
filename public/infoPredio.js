@@ -1,6 +1,6 @@
 const infoPredio = [
 	{
-		id: "estação-dos-ventos-flats",
+		id: "estacao-dos-ventos-flats",
 		title: "Estação dos Ventos Flats",
 		img: [
 			{ image: "/Fachada.jpeg" },
@@ -63,7 +63,7 @@ const infoPredio = [
 		category: "Em Obras",
 	},
 	{
-		id: "condomínio-residencial-pergos",
+		id: "condominio-residencial-pergos",
 		title: "Condomínio Residencial Pergos",
 		img: [
 			{ image: "/DSC_0694.jpg" },
@@ -71,11 +71,14 @@ const infoPredio = [
 			{ image: "/DSC_0702.jpg" },
 		],
 		desc: "",
+		description: [
+			{ desc: "Prédio 100% vendido" },
+		],
 		alt: "Foto Condomínio Residencial Pergos",
 		category: "Entregue",
 	},
 	{
-		id: "edifício-risoleta-faustino",
+		id: "edificio-risoleta-faustino",
 		title: "Edifício Risoleta Faustino",
 		img: [
 			{ image: "/DSC_0742.jpg" },
@@ -83,11 +86,14 @@ const infoPredio = [
 			{ image: "/DSC_0748.jpg" },
 		],
 		desc: "",
+		description: [
+			{ desc: "Prédio 100% vendido" },
+		],
 		alt: "Foto Edifício Risoleta Faustino",
 		category: "Entregue",
 	},
 	{
-		id: "edifício-príncipe-de-micenas",
+		id: "edificio-principe-de-micenas",
 		title: "Edifício Príncipe de Micenas",
 		img: [
 			{ image: "/DSC_0728.jpg" },
@@ -95,6 +101,9 @@ const infoPredio = [
 			{ image: "/DSC_0734.jpg" },
 		],
 		desc: "",
+		description: [
+			{ desc: "Prédio 100% vendido" },
+		],
 		alt: "Foto Edifício Príncipe de Micenas",
 		category: "Entregue",
 	},
