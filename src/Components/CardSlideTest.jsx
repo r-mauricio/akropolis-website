@@ -59,7 +59,7 @@ const CardSlideTest = () => {
 										<p className="mb-1 font-semibold text-gray-400/90 dark:text-gray-400">
 											{predio.category}
 										</p>
-										<p className="mb-1 font-normal text-black/90 dark:text-gray-400">
+										<p className="mb-1  text-black/90 dark:text-gray-400">
 											{predio.desc}
 										</p>
 

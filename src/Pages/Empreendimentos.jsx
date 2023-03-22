@@ -27,8 +27,7 @@ const Empreendimentos = () => {
 					Empreendimentos
 				</h1>
 				<p className="text-gray-500/80 font-semibold mt-2">
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero,
-					vitae.
+					Conheça os nossos empreendimentos
 				</p>
 				<h2
 					className="text-redLogo/50 font-bold uppercase text-sm mt-6 md:mt-12 dark:text-darkLightGray

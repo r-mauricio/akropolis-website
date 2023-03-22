@@ -26,12 +26,13 @@ html::-webkit-scrollbar-thumb:active {
 	border-radius: 10px;
 }
 
-/* * {
-	outline: 1px solid red;
-} */
+html {
+	overflow-x: hidden;
+}
 html {
 	scroll-behavior: smooth;
 }
+
 /* Hamburger Menu */
 
 .hamburger {

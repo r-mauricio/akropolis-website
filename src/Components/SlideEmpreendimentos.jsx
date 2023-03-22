@@ -12,7 +12,7 @@ import "./styles.css";
 // import required modules
 import { Pagination, Navigation } from "swiper";
 
-export default function SlideEmpreendimentos({ image }) {
+export default function SlideEmpreendimentos({ image, handleOpen }) {
 	return (
 		<>
 			<Swiper
@@ -43,6 +43,7 @@ export default function SlideEmpreendimentos({ image }) {
 					return (
 						<SwiperSlide key={i} className=" text-white h-full ">
 							<img
+								onClick={() => handleOpen(i)}
 								src={`${img.image}`}
 								className=" object-cover  object-center w-full h-full hover:opacity-90"
 								alt=""

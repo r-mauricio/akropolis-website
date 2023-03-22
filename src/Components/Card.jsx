@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 const Card = ({ predios }) => {
 	return (
 		<div className="flex flex-wrap items-center justify-center mt-4  ">
-			{predios.map((predio, i) => {
+			{predios.map((predio) => {
 				return (
 					<div
 						key={predio.id}
@@ -23,9 +23,15 @@ const Card = ({ predios }) => {
 									<p className="mb-1 font-semibold text-gray-400/90 dark:text-gray-400">
 										{predio.category}
 									</p>
-									<p className="mb-1 font-semibold text-black/90 dark:text-gray-400">
-										{predio.desc}
-									</p>
+									{predio.category === "Entregue" ? (
+										<p className="mb-1 font-semibold text-black/90 dark:text-gray-400">
+											{predio.description[0].desc}
+										</p>
+									) : (
+										<p className="mb-1 font-semibold text-black/90 dark:text-gray-400">
+											{predio.desc}
+										</p>
+									)}
 
 									<p className="inline-flex items-center mt-2 px-12 py-2 text-sm font-medium text-center text-white bg-redLogo rounded-lg hover:text-redLogo/80  hover:px-[52px] hover:font-bold hover:bg-white ease-in-out duration-500 focus:ring-4 focus:outline-none focus:ring-redLogo dark:bg-darkIce/70 dark:hover:bg-redLogo/70 dark:focus:ring-redLogo/70 dark:text-darkIce dark:hover:text-darkIce">
 										SAIBA MAIS

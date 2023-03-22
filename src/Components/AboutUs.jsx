@@ -9,11 +9,15 @@ const AboutUs = () => {
 				<h1 className="text-redLogo/60 font-bold uppercase text-sm tracking-wider dark:text-darkIce/70">
 					Sobre nós
 				</h1>
-				<p className="pt-4 pb-8 dark:text-lightLogo/70 font-semibold">
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-					temporibus corrupti suscipit iusto. Modi deleniti reiciendis dolorem
-					voluptatibus, possimus aliquam velit earum dignissimos culpa quibusdam
-					dolore ad maxime saepe eos. ...
+				<p className="pt-4 text-black/90 dark:text-lightLogo/70 font-semibold">
+					Desde 1992 edificando sonhos.
+				</p>
+				<p className=" pb-8 dark:text-lightLogo/70 ">
+					Naturais da cidade do Maior São João no Mundo, nossa querida Campina
+					Grande, em 1992 foi fundada a Akrópolis Engenharia no pedaço de
+					paraíso, chamado de Cabedelo. Nesta época, poucos eram os prédios da
+					região, e a Akrópolis já foi carimbando sua marca, acompanhando e
+					participando do crescimento da cidade...
 				</p>
 				<Link
 					to="/sobre"

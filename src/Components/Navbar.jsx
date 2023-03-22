@@ -105,7 +105,7 @@ const Navbar = () => {
 				{/*  Mobile Menu  */}
 				{showLinks ? (
 					<div className=" lg:hidden">
-						<div className="absolute flex flex-col items-center justify-center  mt-9 space-y-10 font-bold bg-gray-300 text-redLogo w-screen h-screen left-0 drop-shadow-md group dark:text-darkIce/80 dark:bg-darkGray">
+						<div className=" absolute flex flex-col items-center justify-center  mt-9 space-y-12 font-bold bg-gray-300 text-redLogo w-screen h-screen left-0 drop-shadow-md group dark:text-darkIce/80 dark:bg-darkGray">
 							{theme === "light" ? (
 								<button onClick={handleThemeSwitch}>
 									<MdDarkMode size={15} />
