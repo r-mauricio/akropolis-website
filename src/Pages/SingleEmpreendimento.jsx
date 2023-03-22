@@ -35,25 +35,25 @@ const SingleEmpreendimento = () => {
 			<div>
 				{open ? (
 					<div className="fixed overflow-hidden top-0 left-0 w-screen h-full z-50 flex items-center bg-black/90">
-						<AiFillCloseCircle
-							className="absolute top-5 right-5 text-2xl text-darkIce pointer"
-							onClick={() => handleClose()}
-						/>
-						<FaArrowCircleLeft
-							className="m-5 text-darkIce pointer text-2xl "
-							onClick={() => handleMove("left")}
-						/>
 						<div className="w-full h-full flex justify-center items-center">
+							<AiFillCloseCircle
+								className="absolute top-5 right-5 text-2xl text-darkIce pointer"
+								onClick={() => handleClose()}
+							/>
+							<FaArrowCircleLeft
+								className="m-5 text-darkIce pointer text-2xl "
+								onClick={() => handleMove("left")}
+							/>
 							<img
 								src={`${img[slideNumber].image}`}
 								alt=""
 								className="max-w-screen max-h-screen object-cover object-fit"
 							/>
+							<FaArrowCircleRight
+								className="m-5 text-darkIce pointer text-2xl"
+								onClick={() => handleMove("right")}
+							/>
 						</div>
-						<FaArrowCircleRight
-							className="m-5 text-darkIce pointer text-2xl"
-							onClick={() => handleMove("right")}
-						/>
 					</div>
 				) : (
 					<div>
