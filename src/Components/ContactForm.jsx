@@ -36,7 +36,6 @@ const ContactForm = () => {
 	(err) => {
 		console.log("erro:", err);
 	};
-	console.log(import.meta.env.VITE_PUBLIC_KEY);
 	return (
 		<div className="w-full max-w-sm  bg-white border border-gray-200 rounded-lg shadow  p-8 dark:bg-darkGray dark:border-darkBlack">
 			<form className="space-y-6" onSubmit={sendEmail}>
