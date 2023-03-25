@@ -1,18 +1,13 @@
 import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import predios from "../../public/infoPredio";
-// Import Swiper React components
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import "./styles.css";
-
-// import required modules
 import { Pagination, Navigation } from "swiper";
 
 const CardSlideTest = () => {

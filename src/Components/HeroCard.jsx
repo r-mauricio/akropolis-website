@@ -1,17 +1,12 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import predios from "../../public/infoPredio";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import "./styles.css";
-
-// import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 
 const prediosToRender = predios.slice(0, 2);
