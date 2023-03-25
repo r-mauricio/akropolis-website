@@ -9,12 +9,6 @@ import FaleConosco from "./Pages/FaleConosco";
 import SingleEmpreendimento from "./Pages/SingleEmpreendimento";
 import ScrollToTop from "./helpers/ScrollToTop";
 import Error from "./Pages/Error";
-// import Navbar from "./Components/Navbar";
-
-// import Navbar from "./Components/Navbar";
-// import EmpreendimentosSection from "./Components/EmpreendimentosSection";
-// import AboutUs from "./Components/AboutUs";
-// import HeroCard from "./Components/HeroCard";
 
 const App = () => {
 	return (

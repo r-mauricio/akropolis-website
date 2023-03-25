@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import predios from "../../public/infoPredio";
 import SlideEmpreendimentos from "../Components/SlideEmpreendimentos";
@@ -23,9 +23,9 @@ const SingleEmpreendimento = () => {
 			newSlideNumber = slideNumber === 0 ? img.length - 1 : slideNumber - 1;
 		} else {
 			newSlideNumber = slideNumber === img.length - 1 ? 0 : slideNumber + 1;
-		}
 
-		setSlideNumber(newSlideNumber);
+			setSlideNumber(newSlideNumber);
+		}
 	};
 	const { predioId } = useParams();
 	const predio = predios.find((predio) => predio.id == predioId);
@@ -35,25 +35,25 @@ const SingleEmpreendimento = () => {
 			<div>
 				{open ? (
 					<div className="fixed overflow-hidden top-0 left-0 w-screen h-full z-50 flex items-center bg-black/90">
+						<AiFillCloseCircle
+							className="absolute top-5 right-5 text-2xl text-darkIce pointer"
+							onClick={() => handleClose()}
+						/>
+						<FaArrowCircleLeft
+							className="m-5 text-darkIce pointer text-2xl "
+							onClick={() => handleMove("left")}
+						/>
 						<div className="w-full h-full flex justify-center items-center">
-							<AiFillCloseCircle
-								className="absolute top-5 right-5 text-2xl text-darkIce pointer"
-								onClick={() => handleClose()}
-							/>
-							<FaArrowCircleLeft
-								className="m-5 text-darkIce pointer text-2xl "
-								onClick={() => handleMove("left")}
-							/>
 							<img
 								src={`${img[slideNumber].image}`}
 								alt=""
 								className="max-w-screen max-h-screen object-cover object-fit"
 							/>
-							<FaArrowCircleRight
-								className="m-5 text-darkIce pointer text-2xl"
-								onClick={() => handleMove("right")}
-							/>
 						</div>
+						<FaArrowCircleRight
+							className="m-5 text-darkIce pointer text-2xl"
+							onClick={() => handleMove("right")}
+						/>
 					</div>
 				) : (
 					<div>

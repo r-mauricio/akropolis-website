@@ -10,7 +10,7 @@ const AboutUs = () => {
 					Sobre nós
 				</h1>
 				<p className="pt-4 text-black/90 dark:text-lightLogo/70 font-semibold">
-					Desde 1992 edificando sonhos.
+					Desde 1992 edificando sonhos
 				</p>
 				<p className=" pb-8 dark:text-lightLogo/70 ">
 					Naturais da cidade do Maior São João no Mundo, nossa querida Campina

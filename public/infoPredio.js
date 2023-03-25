@@ -25,7 +25,7 @@ const infoPredio = [
 			{ image: "/Planta flat 46,70m².PNG" },
 		],
 		content:
-			"O Estação dos Ventos Flats nasceu de um sonho. O sonho de conectar o mar ao dia-a-dia. De poder acordar todos os dias com a brisa no rosto, apreciando o verão de nossa cidade que dura o ano todo. Mais do que um local para se morar, o Estação dos Ventos-Flats é um local de convivência, onde os seus moradores terão o mar a seus pés, e a convivência com a sociedade, não é sobre ficar apenas em seu apartamento, é sobre viver em harmonia com a natureza e as pessoas.",
+			"O Estação dos Ventos Flats nasceu de um sonho. O sonho de conectar o mar ao dia-a-dia. De poder acordar todos os dias com a brisa no rosto, apreciando o verão de nossa cidade que dura o ano todo. Mais do que um local para se morar, o Estação dos Ventos Flats é um local de convivência, onde os seus moradores terão o mar a seus pés, e a convivência com a sociedade, não é sobre ficar apenas em seu apartamento, é sobre viver em harmonia com a natureza e as pessoas.         Você está a poucos passos da praia de Ponta de Campina, uma das praias mais agradáveis da grande João Pessoa. Localizada na Rua Henrique Siqueira, próximo de bares, restaurantes, farmácias, supermercados, casa lotérica, e todas as outras utilidades necessárias para o seu dia a dia. O prédio foi elaborado de forma que todas as unidades estão posicionadas para o nascente ou sul, garantindo ventilação e iluminação privilegiadas aos moradores, além de terem vista para o mar desde o primeiro andar do empreendimento. As plantas dos flats foram pensadas para ter o maior aproveitamento de espaço, combinando conforto e praticidade.",
 		desc: "Apartamentos de 28m² a 46m²",
 		description: [
 			{ desc: "Apartamentos de 28m² a 46m²" },
@@ -53,7 +53,7 @@ const infoPredio = [
 			{ image: "/Planta 103m2.jpeg" },
 		],
 		content:
-			"O Aquamares Residence tem uma ótima localização a poucos metros de uma das praias mais aconchegantes da Paraíba. A Praia de Intermares. Um projeto pensado em você, na sua fampilia e na sua comodidade. Bem próximo de supermercados, casa lotérica, restaurantes, esscolas e de um dos mais lindos pôr do sol do mundo, na Praia do Jacaré. São cinco tipos de apartamento, cada um feito patra o seu modo de viver, com muito conforto, espaço, comodidade e segurança e tudo isso próximo do mar",
+			"O Aquamares Residence tem uma ótima localização a poucos metros de uma das praias mais aconchegantes da Paraíba. A Praia de Intermares. Um projeto pensado em você, na sua família e na sua comodidade. Bem próximo de supermercados, casa lotérica, restaurantes, esscolas e de um dos mais lindos pôr do sol do mundo, na Praia do Jacaré. São cinco tipos de apartamento, cada um feito para o seu modo de viver, com muito conforto, espaço, comodidade e segurança e tudo isso próximo do mar. As áreas de lazer do prédio se encontram no mezanino, com uma piscina de 17,5m de raia, perfeita para quem gosta de nadar um pouco mais. Contando também com Salão de Festas, Academia e Salão de Jogos.",
 		desc: "Apartamentos de 58m² a 103m²",
 		description: [
 			{ desc: "Apartamentos de 58m² a 103m²" },
