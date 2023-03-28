@@ -16,16 +16,12 @@ const SingleEmpreendimento = () => {
 	const handleClose = () => {
 		setOpen(false);
 	};
-	const handleMove = (direction) => {
-		let newSlideNumber;
+	const handleBack = () => {
+		setSlideNumber(slideNumber === 0 ? images.length - 1 : slideNumber - 1);
+	};
 
-		if (direction === "left") {
-			newSlideNumber = slideNumber === 0 ? img.length - 1 : slideNumber - 1;
-		} else {
-			newSlideNumber = slideNumber === img.length - 1 ? 0 : slideNumber + 1;
-
-			setSlideNumber(newSlideNumber);
-		}
+	const handleForward = () => {
+		setSlideNumber(slideNumber === images.length - 1 ? 0 : slideNumber + 1);
 	};
 	const { predioId } = useParams();
 	const predio = predios.find((predio) => predio.id == predioId);
@@ -41,7 +37,7 @@ const SingleEmpreendimento = () => {
 						/>
 						<FaArrowCircleLeft
 							className="m-5 text-darkIce pointer text-2xl "
-							onClick={() => handleMove("left")}
+							onClick={() => handleBack()}
 						/>
 						<div className="w-full h-full flex justify-center items-center">
 							<img
@@ -52,7 +48,7 @@ const SingleEmpreendimento = () => {
 						</div>
 						<FaArrowCircleRight
 							className="m-5 text-darkIce pointer text-2xl"
-							onClick={() => handleMove("right")}
+							onClick={() => handleForward()}
 						/>
 					</div>
 				) : (
@@ -61,7 +57,6 @@ const SingleEmpreendimento = () => {
 							image={img}
 							id={predio.id}
 							handleOpen={handleOpen}
-							handleMove={handleMove}
 						/>
 						<div className="container flex flex-col  mx-auto overflow-hidden  w-full h-full ">
 							<h2 className="mt-4 text-redLogo/60 font-bold text-2xl md:tracking-wider md:text-3xl dark:text-darkLightGray/70">
