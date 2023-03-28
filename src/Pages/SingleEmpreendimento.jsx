@@ -17,11 +17,11 @@ const SingleEmpreendimento = () => {
 		setOpen(false);
 	};
 	const handleBack = () => {
-		setSlideNumber(slideNumber === 0 ? images.length - 1 : slideNumber - 1);
+		setSlideNumber(slideNumber === 0 ? img.length - 1 : slideNumber - 1);
 	};
 
 	const handleForward = () => {
-		setSlideNumber(slideNumber === images.length - 1 ? 0 : slideNumber + 1);
+		setSlideNumber(slideNumber === img.length - 1 ? 0 : slideNumber + 1);
 	};
 	const { predioId } = useParams();
 	const predio = predios.find((predio) => predio.id == predioId);
