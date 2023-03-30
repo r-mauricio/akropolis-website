@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Card from "../Components/Card";
-import predios from "../../public/infoPredio";
+import predios from "../../public/infoPredio.js";
 import EmpreendimentosCategories from "../Components/EmpreendimentosCategories";
 
 const allCategories = [

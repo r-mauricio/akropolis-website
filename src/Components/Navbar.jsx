@@ -15,22 +15,11 @@ const ScrollToTop = () => {
 
 const Navbar = () => {
 	const [showLinks, setShowLinks] = useState(false);
-	const [theme, setTheme] = useState(null);
+	const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
 	useEffect(() => {
-		if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-			setTheme("dark");
-		} else {
-			setTheme("light");
-		}
-	}, []);
-
-	useEffect(() => {
-		if (theme === "dark") {
-			document.documentElement.classList.add("dark");
-		} else {
-			document.documentElement.classList.remove("dark");
-		}
+		localStorage.setItem("theme", theme);
+		document.body.className = theme;
 	}, [theme]);
 
 	const handleThemeSwitch = () => {
