@@ -93,7 +93,7 @@ html {
 .active {
 	text-decoration: solid underline rgb(124 0 2 / 0.8) 3px;
 
-	text-underline-offset: 40px;
+	text-underline-offset: 36px;
 }
 
 @media screen and (max-width: 976px) {

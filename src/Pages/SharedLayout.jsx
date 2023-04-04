@@ -6,7 +6,7 @@ const Home = () => {
 	return (
 		<div className="font-roboto dark:bg-darkGray">
 			<Navbar />
-			<div className=" md:pt-[101px]">
+			<div className=" md:pt-[92px]">
 				<Outlet />
 			</div>
 		</div>

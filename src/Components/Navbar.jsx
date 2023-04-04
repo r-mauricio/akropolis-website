@@ -18,6 +18,14 @@ const Navbar = () => {
 	const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
 	useEffect(() => {
+		if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+			setTheme("dark");
+		} else {
+			setTheme("light");
+		}
+	}, []);
+
+	useEffect(() => {
 		localStorage.setItem("theme", theme);
 		document.body.className = theme;
 	}, [theme]);
@@ -38,13 +46,13 @@ const Navbar = () => {
 						<img
 							src={logo}
 							alt="Akropolis Logo"
-							className=" h-[70px] w-[180px] md:h-[90px] md:w-[220px] md:ml-2"
+							className=" h-[70px] w-[180px] md:h-[80px] md:w-[200px] "
 						/>
 					) : (
 						<img
 							src={logoWhite}
 							alt="Akropolis Logo"
-							className=" h-[70px] w-[180px] md:h-[90px] md:w-[220px] md:ml-2"
+							className=" h-[70px] w-[180px] md:h-[80px] md:w-[200px] "
 						/>
 					)}
 				</NavLink>
@@ -75,7 +83,7 @@ const Navbar = () => {
 				{/* Hamburger Icon  */}
 				{showLinks ? (
 					<button
-						className="ml-auto  open block hamburger lg:hidden focus:outline-none"
+						className="ml-auto mr-3 open block hamburger lg:hidden focus:outline-none"
 						onClick={toggleLinks}>
 						<span className="open dark:bg-darkLightGray hamburger-top"></span>
 						<span className="open dark:bg-darkLightGray hamburger-middle"></span>
@@ -83,7 +91,7 @@ const Navbar = () => {
 					</button>
 				) : (
 					<button
-						className="block hamburger lg:hidden focus:outline-none"
+						className="block mr-3 hamburger lg:hidden focus:outline-none"
 						onClick={toggleLinks}>
 						<span className="dark:bg-darkLightGray hamburger-top"></span>
 						<span className="dark:bg-darkLightGray hamburger-middle"></span>

@@ -37,7 +37,7 @@ const ContactForm = () => {
 		console.log("erro:", err);
 	};
 	return (
-		<div className="w-full max-w-sm  bg-white border border-gray-200 rounded-lg shadow  p-8 dark:bg-darkGray dark:border-darkBlack">
+		<div className="w-full max-w-sm  bg-white border border-gray-200 rounded-lg shadow  p-8 dark:bg-darkMediumGray dark:border-darkBlack">
 			<form className="space-y-6" onSubmit={sendEmail}>
 				<div>
 					<label className="block mb-2 text-md font-semibold text-gray-700 dark:text-darkIce">

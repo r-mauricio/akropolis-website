@@ -22,7 +22,7 @@ const FaleConosco = () => {
 							<div className="w-96 md:ml-96 md:absolute">
 								<ContactForm />
 							</div>
-							<div className="   md:py-8">
+							<div className="   py-8">
 								<img
 									src={bg}
 									alt="Akropolis engenharia"
