@@ -33,7 +33,7 @@ export default function HeroCard() {
 								src={predio.img[0].image}
 								className=" w-full h-full object-cover object-center  mix-blend-overlay ease-in-out duration-1000"
 							/>
-							<div className="absolute top-24 mx-auto  py-4 px-10 max-w-sm  mt-12 rounded-3xl  md:left-4 md:mx-20 md:mt-auto md:py-2 md:px-10  z-10">
+							<div className="absolute top-24 mx-auto  py-4 px-10 max-w-xs  mt-12 rounded-3xl  md:left-4 md:mx-20 md:mt-auto md:py-2 md:px-10  z-10">
 								<h1 className="text-ice/80 mr-2 tracking-wide text-2xl font-bold md:leading-tight md:text-4xl lg:text-5xl">
 									{predio.title}
 								</h1>

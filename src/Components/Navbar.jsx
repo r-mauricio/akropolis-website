@@ -39,20 +39,20 @@ const Navbar = () => {
 	};
 
 	return (
-		<div className="border-t-4  border-lightLogo container mx-auto max-w-full p-1 bg-ice fixed z-20 dark:bg-darkBlack dark:border-redLogo/80">
+		<div className="border-t-4  border-lightLogo container mx-auto max-w-full p-[6px] bg-ice fixed z-20 dark:bg-darkBlack dark:border-redLogo/80">
 			<div className="flex items-center justify-between">
 				<NavLink to="/" onClick={ScrollToTop}>
 					{theme === "light" ? (
 						<img
 							src={logo}
 							alt="Akropolis Logo"
-							className=" h-[70px] w-[180px] md:h-[80px] md:w-[200px] "
+							className=" h-[60px] w-[120px] md:h-[80px] md:w-[200px]  "
 						/>
 					) : (
 						<img
 							src={logoWhite}
 							alt="Akropolis Logo"
-							className=" h-[70px] w-[180px] md:h-[80px] md:w-[200px] "
+							className=" h-[60px] w-[120px] md:h-[80px] md:w-[200px] "
 						/>
 					)}
 				</NavLink>
