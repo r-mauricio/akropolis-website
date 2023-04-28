@@ -9,7 +9,7 @@ const EmpreendimentosCategories = ({ categories, filterPredios }) => {
 						type="button"
 						key={id}
 						onClick={() => filterPredios(category)}
-						className="bg-transparent  text-gray-500/80 font-semibold text-[10px] uppercase py-1 px-2 border border-gray-500/80 hover:bg-gray-300 hover:text-white  hover:border-transparent rounded dark:hover:bg-ice/70 dark:hover:text-redLogo">
+						className="bg-transparent  text-gray-500/80 font-semibold text-[10px] uppercase py-1 px-2 border border-gray-500/80 rounded-sm hover:bg-gray-400 hover:text-white  hover:border-transparent hover:rounded-md duration-300 ease-linear dark:hover:bg-ice/70 dark:hover:text-redLogo">
 						{category}
 					</button>
 				);

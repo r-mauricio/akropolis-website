@@ -25,7 +25,7 @@ const infoPredio = [
 			{ image: "/Planta flat 46,70m².PNG" },
 		],
 		content:
-			"O Estação dos Ventos Flats nasceu de um sonho. O sonho de conectar o mar ao dia-a-dia. De poder acordar todos os dias com a brisa no rosto, apreciando o verão de nossa cidade que dura o ano todo. Mais do que um local para se morar, o Estação dos Ventos Flats é um local de convivência, onde os seus moradores terão o mar a seus pés, e a convivência com a sociedade, não é sobre ficar apenas em seu apartamento, é sobre viver em harmonia com a natureza e as pessoas.         Você está a poucos passos da praia de Ponta de Campina, uma das praias mais agradáveis da grande João Pessoa. Localizada na Rua Henrique Siqueira, próximo de bares, restaurantes, farmácias, supermercados, casa lotérica, e todas as outras utilidades necessárias para o seu dia a dia. O prédio foi elaborado de forma que todas as unidades estão posicionadas para o nascente ou sul, garantindo ventilação e iluminação privilegiadas aos moradores, além de terem vista para o mar desde o primeiro andar do empreendimento. As plantas dos flats foram pensadas para ter o maior aproveitamento de espaço, combinando conforto e praticidade.",
+			"O Estação dos Ventos Flats nasceu de um sonho. O sonho de conectar o mar ao dia-a-dia. De poder acordar todos os dias com a brisa no rosto, apreciando o verão de nossa cidade que dura o ano todo. Mais do que um local para se morar, o Estação dos Ventos Flats é um local de convivência, onde os seus moradores terão o mar a seus pés, e a convivência com a sociedade, não é sobre ficar apenas em seu apartamento, é sobre viver em harmonia com a natureza e as pessoas. Você está a poucos passos da praia de Ponta de Campina, uma das praias mais agradáveis da grande João Pessoa. Localizada na Rua Henrique Siqueira, próximo de bares, restaurantes, farmácias, supermercados, casa lotérica, e todas as outras utilidades necessárias para o seu dia a dia. O prédio foi elaborado de forma que todas as unidades estão posicionadas para o nascente ou sul, garantindo ventilação e iluminação privilegiadas aos moradores, além de terem vista para o mar desde o primeiro andar do empreendimento. As plantas dos flats foram pensadas para ter o maior aproveitamento de espaço, combinando conforto e praticidade.",
 		desc: "Apartamentos de 28m² a 46m²",
 		description: [
 			{ desc: "Apartamentos de 28m² a 46m²" },
@@ -64,7 +64,7 @@ const infoPredio = [
 	},
 	{
 		id: "condominio-residencial-pergos",
-		title: "Condomínio Residencial Pergos",
+		title: " Residencial Pergos",
 		img: [
 			{ image: "/DSC_0694.jpg" },
 			{ image: "/DSC_0696.jpg" },
@@ -77,7 +77,7 @@ const infoPredio = [
 	},
 	{
 		id: "edificio-risoleta-faustino",
-		title: "Edifício Risoleta Faustino",
+		title: "Ed. Risoleta Faustino",
 		img: [
 			{ image: "/DSC_0742.jpg" },
 			{ image: "/DSC_0747.jpg" },
@@ -90,7 +90,7 @@ const infoPredio = [
 	},
 	{
 		id: "edificio-principe-de-micenas",
-		title: "Edifício Príncipe de Micenas",
+		title: "Ed. Príncipe de Micenas",
 		img: [
 			{ image: "/DSC_0728.jpg" },
 			{ image: "/DSC_0733.jpg" },

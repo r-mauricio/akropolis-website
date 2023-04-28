@@ -30,24 +30,24 @@ const SingleEmpreendimento = () => {
 		<div>
 			<div>
 				{open ? (
-					<div className="fixed overflow-hidden top-0 left-0 w-screen h-full z-50 flex items-center bg-black/90">
+					<div className="fixed overflow-hidden top-0 left-0 w-screen h-full z-50 flex items-center bg-black/90 select-none">
 						<AiFillCloseCircle
-							className="absolute top-5 right-5 text-2xl text-darkIce pointer"
+							className="absolute top-5 right-5 text-2xl text-darkIce pointer md:w-24 "
 							onClick={() => handleClose()}
 						/>
 						<FaArrowCircleLeft
-							className="m-5 text-darkIce pointer text-2xl "
+							className="m-5  text-darkIce pointer text-2xl md:w-48"
 							onClick={() => handleBack()}
 						/>
 						<div className="w-full h-full flex justify-center items-center">
 							<img
 								src={`${img[slideNumber].image}`}
-								alt=""
+								alt="foto estacao"
 								className="max-w-screen max-h-screen object-cover object-fit"
 							/>
 						</div>
 						<FaArrowCircleRight
-							className="m-5 text-darkIce pointer text-2xl"
+							className="m-5  text-darkIce pointer text-2xl md:w-48"
 							onClick={() => handleForward()}
 						/>
 					</div>
@@ -59,32 +59,36 @@ const SingleEmpreendimento = () => {
 							handleOpen={handleOpen}
 						/>
 						<div className="container flex flex-col  mx-auto overflow-hidden  w-full h-full ">
-							<h2 className="mt-4 text-redLogo/60 font-bold text-2xl md:tracking-wider md:text-3xl dark:text-darkLightGray/70">
+							<h2 className="mt-4 mx-5 text-redLogo/80 font-bold text-2xl md:text-3xl md:mt-8 md:mx-0 dark:text-darkIce/70">
 								{title}
 							</h2>
-							<h2 className="my-4  text-gray-500/50 font-bold text-sm md:tracking-wider md:text-md dark:text-darkIce">
+							<h2 className="my-3 mx-5 text-gray-500/50 font-bold text-sm md:tracking-wider md:text-md md:mx-0 dark:text-darkIce">
 								{category}
 							</h2>
-							<div className="mt-4 mb-8">
-								<h1 className="uppercase text-black/70 dark:text-darkLightGray font-bold tracking-widest">
+							<div className="mt-4 mb-8 mx-5 md:mx-0">
+								<h1 className=" text-darkGray/90 text-lg font-medium tracking-wide dark:text-lightLogo ">
 									Sobre o empreendimento
 								</h1>
-								<p className="mt-4 text-redLogo/40 font-noral text-md  mb-4 md:text-md dark:text-darkIce/90">
+								<p className="mt-4 text-gray-500 text-sm md:text-base dark:text-darkIce">
 									{content}
 								</p>
 							</div>
-							<h1 className="uppercase text-black/70 dark:text-darkLightGray font-bold tracking-widest"></h1>
-							{description.map((desc, i) => {
-								return (
-									<div>
-										<h2
-											key={i * 2}
-											className="mb-3  text-redLogo/40 font-semibold text-md  md:text-md dark:text-darkIce/80">
-											{description[i].desc}
-										</h2>
-									</div>
-								);
-							})}
+							<div className="flex flex-col pb-8 max-w-[900px] mx-5 md:mx-0">
+								<h1 className="mb-1 text-redLogo dark:text-lightLogo font-bold tracking-widest">
+									Características:
+								</h1>
+								<ul className="flex flex-col flex-wrap items-start justify-start  list-[circle] md:flex-row md:items-center">
+									{description.map((desc, i) => {
+										return (
+											<li
+												key={i * 2}
+												className="text-sm font-medium w-60 tracking-wider text-black py-1 mx-6 dark:text-white/80">
+												{description[i].desc}
+											</li>
+										);
+									})}
+								</ul>
+							</div>
 						</div>
 					</div>
 				)}

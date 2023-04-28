@@ -21,12 +21,12 @@ const Empreendimentos = () => {
 		setListaPredios(newPredios);
 	};
 	return (
-		<div className=" md:container md:mx-auto overflow-hidden flex flex-col bg-white w-full h-full dark:bg-darkGray ">
+		<div className="overflow-hidden flex flex-col bg-white w-full h-full dark:bg-darkGray md:py-[92px] md:container md:mx-auto ">
 			<div className="flex flex-col mx-8 mt-24 md:mt-8">
-				<h1 className="text-redLogo/60 font-bold text-3xl tracking-wider md:text-4xl dark:text-darkLightGray/70">
+				<h1 className="text-redLogo/80 font-bold text-2xl md:text-4xl dark:text-darkIce/70">
 					Empreendimentos
 				</h1>
-				<p className="text-gray-500/80 font-semibold mt-2">
+				<p className="text-darkGray/90 text-lg font-medium tracking-wide mt-2 dark:text-lightLogo">
 					Conheça os nossos empreendimentos
 				</p>
 				<h2

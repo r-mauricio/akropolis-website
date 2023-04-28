@@ -4,32 +4,32 @@ import photo from "/deck.jpeg";
 
 const AboutUs = () => {
 	return (
-		<div className="overflow-hidden flex flex-col bg-ice w-full md:flex-row dark:bg-darkGray">
-			<div className="flex flex-col my-8 mx-4">
-				<h1 className="text-redLogo/60 font-bold uppercase text-sm tracking-wider dark:text-darkIce/70">
+		<div className="overflow-hidden flex flex-col bg-ice/50 w-full md:flex-row dark:bg-darkMediumGray/10">
+			<div className="flex flex-col py-8 px-12  md:px-16">
+				<h1 className="text-redLogo/80 font-bold uppercase text-2xl  dark:text-darkIce/70">
 					Sobre nós
 				</h1>
-				<p className="pt-4 text-black/90 dark:text-lightLogo/70 font-semibold">
+				<p className="pt-6 pb-3 text-lg font-medium tracking-wide text-darkGray/90 dark:text-lightLogo ">
 					Desde 1992 edificando sonhos
 				</p>
-				<p className=" pb-8 dark:text-lightLogo/70 ">
+				<p className=" text-gray-500/80 pb-8 tracking-wide dark:text-darkIce/80 ">
 					Naturais da cidade do Maior São João no Mundo, nossa querida Campina
 					Grande, em 1992 foi fundada a Akrópolis Engenharia no pedaço de
 					paraíso, chamado de Cabedelo. Nesta época, poucos eram os prédios da
 					região, e a Akrópolis já foi carimbando sua marca, acompanhando e
-					participando do crescimento da cidade...
+					participando do crescimento da cidade
 				</p>
 				<Link
 					to="/sobre"
-					className="flex bg-redLogo font-semibold w-48 h-12 items-center justify-center  text-ice rounded-lg text-md uppercase tracking-widest hover:bg-lightLogo hover:font-bold ease-in-out duration-300 dark:text-darkIce dark:hover:text-darkIce">
+					className="flex items-center justify-center w-44 h-10  bg-redLogo/90  text-ice rounded-md text-md  uppercase  hover:bg-redLogo ease-in-out duration-300 dark:text-darkIce/90 ">
 					conheça
 				</Link>
 			</div>
-			<div className="flex py-4 items-center justify-center ">
+			<div className="flex py-4 px-1  items-center justify-center md:px-8">
 				<img
 					src={photo}
 					alt="Akropolis engenharia"
-					className="h-64 w-auto bg-gradient-to-r from-black/70 md:h-auto md:w-auto rounded-3xl "
+					className="h-72 w-auto bg-gradient-to-r from-black/70 md:w-auto md:h-auto  rounded-3xl "
 				/>
 			</div>
 		</div>

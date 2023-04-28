@@ -14,7 +14,7 @@ export default function SlideEmpreendimentos({ image, handleOpen }) {
 	return (
 		<>
 			<Swiper
-				className=" w-full h-[320px] pt-[82px] md:pt-0"
+				className=" w-full h-[350px] pt-[82px] md:pt-[82px]"
 				slidesPerView={1}
 				spaceBetween={0}
 				pagination={{
