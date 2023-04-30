@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 //
@@ -14,7 +14,7 @@ export default function SlideEmpreendimentos({ image, handleOpen }) {
 	return (
 		<>
 			<Swiper
-				className=" w-full h-[350px] pt-[82px] md:pt-[82px]"
+				className=" w-full h-[350px] pt-[72px] md:pt-[84px] "
 				slidesPerView={1}
 				spaceBetween={0}
 				pagination={{

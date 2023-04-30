@@ -3,7 +3,7 @@ const infoPredio = [
 		id: "estacao-dos-ventos-flats",
 		title: "Estação dos Ventos Flats",
 		img: [
-			{ image: "/Fachada.jpeg" },
+			{ image: "/1. Projeto Fachada.jpeg" },
 			{ image: "/1. Projeto Cozinha.Sala.jpeg" },
 			{ image: "/2. Projeto Cozinha.jpeg" },
 			{ image: "/3. Projeto Sala.Quarto.jpeg" },

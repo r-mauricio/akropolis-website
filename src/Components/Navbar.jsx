@@ -156,26 +156,26 @@ const Navbar = () => {
 							<NavLink
 								onClick={showLinks}
 								to="/"
-								className=" hover:text-lightLogo tracking-widest dark:hover:text-redLogo/80 link">
-								HOME
+								className=" tracking-widest  footer-link">
+								Home
 							</NavLink>
 							<NavLink
 								onClick={showLinks}
 								to="/empreendimentos"
-								className=" hover:text-lightLogo tracking-widest dark:hover:text-redLogo/80  link">
-								EMPREENDIMENTOS
+								className="  tracking-widest  footer-link">
+								Empreendimentos
 							</NavLink>
 							<NavLink
 								onClick={showLinks}
 								to="/sobre"
-								className=" hover:text-lightLogo tracking-widest dark:hover:text-redLogo/80 link">
-								SOBRE NÓS
+								className="  tracking-widest  footer-link">
+								Sobre Nós
 							</NavLink>
 							<NavLink
 								onClick={showLinks}
 								to="/faleconosco"
-								className=" hover:text-lightLogo tracking-widest dark:hover:text-redLogo/80 link">
-								FALE CONOSCO
+								className=" tracking-widest footer-link">
+								Fale Conosco
 							</NavLink>
 						</div>
 					</div>

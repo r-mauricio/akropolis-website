@@ -36,18 +36,18 @@ const SingleEmpreendimento = () => {
 							onClick={() => handleClose()}
 						/>
 						<FaArrowCircleLeft
-							className="m-5  text-darkIce pointer text-2xl md:w-48"
+							className="m-2  text-darkIce pointer md:text-2xl md:m-5 md:w-48"
 							onClick={() => handleBack()}
 						/>
-						<div className="w-full h-full flex justify-center items-center">
+						<div className="w-full h-full flex justify-center items-center md:max-w-full">
 							<img
 								src={`${img[slideNumber].image}`}
 								alt="foto estacao"
-								className="max-w-screen max-h-screen object-cover object-fit"
+								className="max-h-screen md:max-w-screen-md lg:max-w-screen-lg"
 							/>
 						</div>
 						<FaArrowCircleRight
-							className="m-5  text-darkIce pointer text-2xl md:w-48"
+							className=" m-2  text-darkIce pointer md:m-5 md:text-2xl md:w-48"
 							onClick={() => handleForward()}
 						/>
 					</div>

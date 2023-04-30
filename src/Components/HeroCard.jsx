@@ -24,11 +24,10 @@ export default function HeroCard() {
 					delay: 15000,
 					disableOnInteraction: false,
 				}}
-				navigation={true}
-				modules={[Autoplay, Pagination, Navigation]}>
+				modules={[Autoplay, Pagination]}>
 				{prediosToRender.map((predio) => (
 					<SwiperSlide key={predio.id}>
-						<div className=" bg-gradient-to-br from-black/70  h-screen min-w-full relative group ">
+						<div className=" bg-gradient-to-br from-black/50  h-screen min-w-full relative group ">
 							<img
 								src={predio.img[0].image}
 								className=" w-full h-full object-cover object-center  mix-blend-overlay ease-in-out duration-1000"
