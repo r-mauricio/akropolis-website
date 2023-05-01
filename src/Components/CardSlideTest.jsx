@@ -43,7 +43,7 @@ const CardSlideTest = () => {
 										aria-label="clique aqui para abrir página no empreendimento">
 										<img
 											className="rounded-t-lg object-cover object-center w-72 h-[160px] group-hover:shadow-3xl  group-hover:opacity-90 ease-in-out duration-300"
-											src={predio.img[0].image}
+											src={predio.img[1].image}
 											alt={predio.alt}
 										/>
 									</a>

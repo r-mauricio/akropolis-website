@@ -13,9 +13,9 @@ const Empreendimentos = () => {
 					<h1 className="text-darkGray/90 pt-6 text-lg font-medium tracking-wide dark:text-lightLogo ">
 						Para moradia ou investimento, temos o empreendimento ideal para você
 					</h1>
-					<h3 className="text-slate-400   text-lg pt-2 dark:text-darkIce/50">
+					<h2 className="text-slate-400   text-lg pt-2 dark:text-darkIce/50">
 						1, 2 ou 3 quartos. Aqui você escolhe
-					</h3>
+					</h2>
 				</div>
 
 				{/* <div className="hidden md:bg-gradient-to-b md:from-redLogo md:to-redLogo/70 md:flex  md:w-48 md:h-auto dark:md:bg-gradient-to-b dark:md:from-redLogo/70 dark:md:to-redLogo/40">
