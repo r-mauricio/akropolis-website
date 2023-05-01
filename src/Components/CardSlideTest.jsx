@@ -38,7 +38,9 @@ const CardSlideTest = () => {
 						<div className="flex text-center items-center justify-center  ">
 							<div className=" border border-gray-200 rounded-lg shadow mx-auto  dark:border-darkBlack group">
 								<div className="bg-ice w-64 h-[350px] rounded-lg dark:bg-darkMediumGray">
-									<a href={`/empreendimentos/${predio.id}`}>
+									<a
+										href={`/empreendimentos/${predio.id}`}
+										aria-label="clique aqui para abrir página no empreendimento">
 										<img
 											className="rounded-t-lg object-cover object-center w-72 h-[160px] group-hover:shadow-3xl  group-hover:opacity-90 ease-in-out duration-300"
 											src={predio.img[0].image}
@@ -46,7 +48,9 @@ const CardSlideTest = () => {
 										/>
 									</a>
 									<div className="px-4 py-4 group-hover:bg-gray-200 group-hover:rounded-b-lg ease-in-out duration-300 dark:group-hover:bg-darkBlack/60 ">
-										<a href={`/empreendimentos/${predio.id}`}>
+										<a
+											href={`/empreendimentos/${predio.id}`}
+											aria-label="clique aqui para abrir página no empreendimento">
 											<h5 className="mb-2 text-xl font-semibold tracking-tight text-black/70 group-hover:text-redLogo/80 ease-in-out duration-300 dark:text-darkIce/90 dark:group-hover:text-darkIce">
 												{predio.title}
 											</h5>
@@ -60,6 +64,7 @@ const CardSlideTest = () => {
 
 										<Link
 											to={`/empreendimentos/${predio.id}`}
+											aria-label="clique aqui para abrir página no empreendimento"
 											className="inline-flex items-center my-1 px-12 py-2 text-sm  text-center text-white bg-redLogo rounded-md hover:px-[52px]  ease-in-out duration-500  dark:bg-darkIce/30  dark:text-darkIce dark:hover:text-darkIce">
 											SAIBA MAIS
 										</Link>

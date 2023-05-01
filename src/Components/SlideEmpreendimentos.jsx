@@ -44,7 +44,7 @@ export default function SlideEmpreendimentos({ image, handleOpen }) {
 								onClick={() => handleOpen(i)}
 								src={`${img.image}`}
 								className=" object-cover  object-center w-full h-full hover:opacity-90"
-								alt=""
+								alt="foto predio"
 							/>
 						</SwiperSlide>
 					);

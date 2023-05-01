@@ -26,11 +26,11 @@ const Footer = () => {
 							Akropolis Engenharia LTDA 2023
 						</div>
 						{/* <!-- Logo --> */}
-						<a href="#" onClick={ScrollToTop}>
+						<a href="#" onClick={ScrollToTop} aria-label="logo akropolis">
 							<img
 								src={logoWhite}
 								className="h-[70px] w-[180px] md:h-[80px] md:w-[200px] lg:h-[90px]  lg:w-[220px] opacity-90 dark:hover:opacity-80"
-								alt=""
+								alt="logo akropolis"
 							/>
 						</a>
 						{/* <!-- Social Links Container --> */}
@@ -38,7 +38,8 @@ const Footer = () => {
 							{/* <!-- NavLink 1 --> */}
 							<a
 								target="_blank"
-								href="https://instagram.com/akropolisengenharia">
+								href="https://instagram.com/akropolisengenharia"
+								aria-label="clique aqui para nos seguir no Instagram">
 								<BsInstagram className="text-ice/90 text-xl hover:text-ice/90 duration-200 ease-linear dark:hover:text-darkIce/80" />
 							</a>
 
@@ -46,14 +47,16 @@ const Footer = () => {
 							<a
 								href="https://wa.me/5583999699443"
 								target="_blank"
-								rel="noopener noreferrer">
+								rel="noopener noreferrer"
+								aria-label="clique aqui para nos chamar no Whatsapp">
 								<MdOutlineWhatsapp className="text-ice/90 text-2xl hover:text-ice/90 duration-200 ease-linear dark:hover:text-darkIce/80" />
 							</a>
 							{/* <!-- NavLink 3 --> */}
 							<a
 								href="mailto:akropolisengenharialtda@gmail.com"
 								target="_blank"
-								rel="noopener noreferrer">
+								rel="noopener noreferrer"
+								aria-label="clique aqui para nos chamar no Whatsapp">
 								<MdOutlineMailOutline className="text-ice/90 text-2xl hover:text-ice/90 duration-200 ease-linear dark:hover:text-darkIce/80" />
 							</a>
 						</div>
@@ -79,7 +82,8 @@ const Footer = () => {
 						className="whatsapp_float"
 						href="https://wa.me/5583999699443"
 						target="_blank"
-						rel="noopener noreferrer">
+						rel="noopener noreferrer"
+						aria-label="clique aqui para nos chamar no Whatsapp">
 						<i className="fa fa-whatsapp whatsapp-icon"></i>
 					</a>
 				</div>

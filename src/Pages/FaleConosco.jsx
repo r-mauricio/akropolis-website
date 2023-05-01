@@ -40,7 +40,8 @@ const FaleConosco = () => {
 								<a
 									href="https://wa.me/5583999699443"
 									target="_blank"
-									rel="noopener noreferrer">
+									rel="noopener noreferrer"
+									aria-label="clique aqui para nos chamar no whatsapp">
 									<MdOutlineWhatsapp className="inline-block text-gray-400 text-2xl duration-200 ease-linear group-hover:text-gray-600 dark:group-hover:text-darkIce/90" />
 									<h2 className="inline-block ml-1 text-gray-400 text-sm font-medium duration-200 tracking-wide ease-linear group-hover:text-gray-600 dark:group-hover:text-darkIce/90">
 										+55 83 999699443
@@ -56,7 +57,8 @@ const FaleConosco = () => {
 								<a
 									href="mailto:akropolisengenharialtda@gmail.com"
 									target="_blank"
-									rel="noopener noreferrer">
+									rel="noopener noreferrer"
+									aria-label="clique aqui para nos mandar um email">
 									<MdOutlineMailOutline className="inline-block text-gray-400 text-2xl  duration-200 ease-linear group-hover:text-gray-600 dark:group-hover:text-darkIce/90" />
 									<h2 className="inline-block ml-1 text-gray-400 text-sm font-medium duration-200 ease-linear tracking-wide group-hover:text-gray-600 dark:group-hover:text-darkIce/90">
 										akropolisengenharia@gmail.com
@@ -70,7 +72,8 @@ const FaleConosco = () => {
 							</h2>
 							<a
 								target="_blank"
-								href="https://instagram.com/akropolisengenharia">
+								href="https://instagram.com/akropolisengenharia"
+								aria-label="clique aqui para nos acompanhar no Instagram">
 								<BsInstagram className="text-gray-400 text-xl duration-200 ease-linear hover:text-gray-600 dark:hover:text-darkIce/90" />
 							</a>
 						</div>

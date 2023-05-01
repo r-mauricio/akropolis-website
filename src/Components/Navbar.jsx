@@ -125,6 +125,7 @@ const Navbar = () => {
 				{showLinks ? (
 					<button
 						className="ml-auto mr-3 open block hamburger lg:hidden focus:outline-none"
+						aria-label="clique aqui para fechar menu"
 						onClick={toggleLinks}>
 						<span className="open dark:bg-darkLightGray hamburger-top"></span>
 						<span className="open dark:bg-darkLightGray hamburger-middle"></span>
@@ -133,6 +134,7 @@ const Navbar = () => {
 				) : (
 					<button
 						className="block mr-3 hamburger lg:hidden focus:outline-none"
+						aria-label="clique aqui para abrir menu"
 						onClick={toggleLinks}>
 						<span className="dark:bg-darkLightGray hamburger-top"></span>
 						<span className="dark:bg-darkLightGray hamburger-middle"></span>

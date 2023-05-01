@@ -30,6 +30,7 @@ export default function HeroCard() {
 						<div className=" bg-gradient-to-br from-black/50  h-screen min-w-full relative group ">
 							<img
 								src={predio.img[0].image}
+								alt={`foto ${predio.title}`}
 								className=" w-full h-full object-cover object-center  mix-blend-overlay ease-in-out duration-1000"
 							/>
 							<div className="absolute top-24 mx-auto  py-4 px-14 max-w-xs  mt-12 rounded-3xl  md:top-40 md:left-4 md:mx-24 md:mt-auto md:py-2 md:px-10  z-10">
