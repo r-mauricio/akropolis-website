@@ -2,9 +2,8 @@ const infoPredio = [
 	{
 		id: "estacao-dos-ventos-flats",
 		title: "Estação dos Ventos Flats",
+		thumbImg: { image: "/1. Projeto Fachada small.jpeg" },
 		img: [
-			{ image: "/1. Projeto Fachada small.jpeg" },
-
 			{ image: "/1. Projeto Fachada.jpeg" },
 			{ image: "/1. Projeto Cozinha.Sala.jpeg" },
 			{ image: "/2. Projeto Cozinha.jpeg" },
@@ -43,9 +42,9 @@ const infoPredio = [
 	{
 		id: "aquamares-residence",
 		title: "Aquamares Residence",
-		img: [
-			{ image: "/Fachada 3 small.jpeg" },
 
+		thumbImg: { image: "/Fachada 3 small.jpeg" },
+		img: [
 			{ image: "/Fachada 3.jpeg" },
 			{ image: "/Projeto Academia.jpeg" },
 			{ image: "/Projeto Apartamento.jpeg" },
@@ -69,9 +68,8 @@ const infoPredio = [
 	{
 		id: "condominio-residencial-pergos",
 		title: " Residencial Pergos",
+		thumbImg: { image: "/DSC_0694 small.jpg" },
 		img: [
-			{ image: "/DSC_0694 small.jpg" },
-
 			{ image: "/DSC_0694.jpg" },
 			{ image: "/DSC_0696.jpg" },
 			{ image: "/DSC_0702.jpg" },
@@ -84,9 +82,8 @@ const infoPredio = [
 	{
 		id: "edificio-risoleta-faustino",
 		title: "Ed. Risoleta Faustino",
+		thumbImg: { image: "/DSC_0742 small.jpg" },
 		img: [
-			{ image: "/DSC_0742 small.jpg" },
-
 			{ image: "/DSC_0742.jpg" },
 			{ image: "/DSC_0747.jpg" },
 			{ image: "/DSC_0748.jpg" },
@@ -99,9 +96,8 @@ const infoPredio = [
 	{
 		id: "edificio-principe-de-micenas",
 		title: "Ed. Príncipe de Micenas",
+		thumbImg: { image: "/DSC_0728 small.jpg" },
 		img: [
-			{ image: "/DSC_0728 small.jpg" },
-
 			{ image: "/DSC_0728.jpg" },
 			{ image: "/DSC_0733.jpg" },
 			{ image: "/DSC_0734.jpg" },

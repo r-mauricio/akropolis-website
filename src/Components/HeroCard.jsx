@@ -29,7 +29,7 @@ export default function HeroCard() {
 					<SwiperSlide key={predio.id}>
 						<div className=" bg-gradient-to-br from-black/50  h-screen min-w-full relative group ">
 							<img
-								src={predio.img[1].image}
+								src={predio.img[0].image}
 								alt={`foto ${predio.title}`}
 								className=" w-full h-full object-cover object-center  mix-blend-overlay ease-in-out duration-1000"
 							/>
