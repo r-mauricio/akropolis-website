@@ -13,7 +13,7 @@ const Card = ({ predios }) => {
 							<div className="bg-ice w-[270px] h-[350px] rounded-lg dark:bg-darkMediumGray">
 								<img
 									className="rounded-t-lg  object-cover object-center w-72 h-[160px] group-hover:shadow-3xl group-hover:opacity-90 dark:group-hover:opacity-70 ease-in-out duration-300"
-									src={predio.img[0].image}
+									src={predio.img[0]}
 									alt={predio.alt}
 								/>
 								<div className="py-4 pb-4  text-center group-hover:bg-gray-200 group-hover:rounded-b-lg ease-in-out duration-300 dark:group-hover:bg-darkGray/70">

@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Pagination, Navigation } from "swiper";
 
-export default function SlideEmpreendimentos({ image, handleOpen }) {
+export default function SlideEmpreendimentos({ image, openLightboxOnSlide }) {
 	return (
 		<>
 			<Swiper
@@ -41,8 +41,9 @@ export default function SlideEmpreendimentos({ image, handleOpen }) {
 					return (
 						<SwiperSlide key={i} className=" text-white h-full ">
 							<img
-								onClick={() => handleOpen(i)}
-								src={`${img.image}`}
+								key={i}
+								onClick={() => openLightboxOnSlide(i + 1)}
+								src={img}
 								className=" object-cover  object-center w-full h-full hover:opacity-90"
 								alt="foto predio"
 							/>
